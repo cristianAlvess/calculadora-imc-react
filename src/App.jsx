@@ -29,11 +29,11 @@ function App() {
   >
     <div
       style={{
-        background: "#00ffd5e2",
+        background: "#ffffff",
         padding: "30px",
         borderRadius: "8px",
         width: "320px",
-        boxShadow: "0 0 10px rgba(127, 127, 127, 0.851)",
+        boxShadow: "0 0 10px rgba(0, 0, 0, 0.851)",
       }}
     >
       <h1 style={{ textAlign: "center" }}>Calculadora IMC</h1>
