@@ -56,7 +56,7 @@ function App() {
           value={altura}
           onChange={(e) => setAltura(e.target.value)}
           placeholder="Ex: 1.75"
-          style={{ width: "100%", background: red, padding: "6px",  borderRadius: "8px" }}
+          style={{ width: "100%", padding: "6px",  borderRadius: "8px" }}
         />
       </div>
 
