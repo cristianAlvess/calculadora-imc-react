@@ -29,7 +29,7 @@ function App() {
   >
     <div
       style={{
-        background: "#ffffff",
+        background: "#ffffffe3",
         padding: "30px",
         borderRadius: "8px",
         width: "320px",
