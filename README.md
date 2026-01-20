@@ -1,16 +1,28 @@
-# React + Vite
+# Calculadora IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida para o cálculo do Índice de Massa Corporal (IMC).
 
-Currently, two official plugins are available:
+O projeto permite que o usuário informe seu peso e altura e obtenha o valor do IMC de forma simples e rápida, diretamente no navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Demo
+Acesse a aplicação em funcionamento:  
+https://calculadora-imc-react.vercel.app
 
-## React Compiler
+## 🚀 Tecnologias utilizadas
+- React
+- JavaScript
+- Vite
+- HTML
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Funcionalidades
+- Cálculo automático do IMC
+- Validação básica dos dados inseridos
+- Interface simples e responsiva
+- Atualização em tempo real sem recarregar a página
 
-## Expanding the ESLint configuration
+## 📂 Como executar o projeto localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
